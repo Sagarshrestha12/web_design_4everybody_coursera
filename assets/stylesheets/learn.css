@@ -6,3 +6,12 @@
 {
 	background: yellow;
 }
+.btn{
+	font-size: 16px;
+}
+.btn-danger{
+	background: red;
+}
+.btn-success {
+	background: green;
+}
