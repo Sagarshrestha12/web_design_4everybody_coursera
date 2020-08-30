@@ -1,6 +1,8 @@
-p{
-	background: red;
+.hotdog p{
+	background: brown;
 }
-#food{
+
+.hotdog p.mustard
+{
 	background: yellow;
 }
