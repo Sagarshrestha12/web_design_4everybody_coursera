@@ -1,0 +1,72 @@
+.hotdog p{
+	background: brown;
+
+}
+
+.hotdog p.mustard
+{
+	background: rgba(0,0,0,0.2);
+	font-size: 100%;
+	width: 50%;
+}
+.btn{
+	/*Length values come in two diffrent forms, absolute and relative. Each of these two diffrent forms have diffrent units of measurement.
+	Absolute length values are simplest length values as they are fixed to physical measurment , such as inches, cm,mm.The most popular absolute
+	unit of measurement is pixel(px). 1px =1/96th of an inches. The exact measurement of the pixels , however ,may vary slightly between high
+	density and low density viewing devices.
+	Relative length are not fixed units of mesurement, they rely on the length of another measurement. 
+	Percentages,represented by the % unit notation. Percentage length are defined in relation to the lenght of another object.
+	Em: The em unit is also very popular relative value. It's length is calculated based on an element's font size. A single em 
+	unit is equivalent to an element's font size.So, for example,if an element has a font size of 14px and width set to 5em, the width 
+	would be equal to 70 pixels*/
+	font-size: 16px;
+	width : 5em;
+}
+.btn-danger{
+	background: red;
+}
+.btn-success {
+	background: green;
+}
+.task{
+	background: maroon;
+}
+.count{
+	background: yellow;
+}
+h1{
+	font-family: whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serf,Courier,Impact;
+}
+/* Difrence between color and backgroung-color*/
+h2, span {
+	color:#00F; /*Blue*/
+	background-color: #B3B3B3;/*Grey*/
+}
+p
+{
+	line-height: 150%;
+}
+a{
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	background: #0006cc;
+	width: 200px;
+	padding: 4px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover{
+	background: #B3B3B3;
+	color: #0006cc;
+}
+a:focus{
+	background: #838383;
+	color: #0006cc;
+}
+a:active{
+	/*border:3px solid #000000;*/
+}
